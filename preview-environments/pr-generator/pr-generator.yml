@@ -9,6 +9,8 @@ spec:
   generators:
   - pullRequest:
       github:
+        owner: danielfischeroctopus
+        repo: gitops-cert-level-3-examples
         labels:
         - preview-ready
       requeueAfterSeconds: 180
